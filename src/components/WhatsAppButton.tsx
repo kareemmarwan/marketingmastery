@@ -16,7 +16,7 @@ export function WhatsAppButton({ location, className = "", variant = 'primary' }
       userAgent: navigator.userAgent
     });
 
-    const phoneNumber = "15550123456";
+    const phoneNumber = "972595260216";
     const message = encodeURIComponent("مرحبًا، أريد شراء كتاب إتقان تصميم المنتجات الرقمية. يرجى تزويدي بتفاصيل الشراء.");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };

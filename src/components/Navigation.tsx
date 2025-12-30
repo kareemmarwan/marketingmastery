@@ -55,11 +55,22 @@ export function Navigation() {
             </button>
 
             <button
-              onClick={() => scrollToSection("hero")}
+              onClick={() => {
+                const phoneNumber = "972595260216"; // بدون + و بدون -
+                const message = encodeURIComponent(
+                  "مرحبًا، أريد الحصول على كتاب إتقان تصميم المنتجات الرقمية."
+                );
+
+                window.open(
+                  `https://wa.me/${phoneNumber}?text=${message}`,
+                  "_blank"
+                );
+              }}
               className="bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-all hover:shadow-lg hover:-translate-y-0.5"
             >
               احصل على الكتاب
             </button>
+
           </div>
         </div>
       </div>

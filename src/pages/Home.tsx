@@ -146,7 +146,7 @@ export default function Home() {
                   />
                 </div>
               </div> */}
-              <img src="\book.jpg" sizes='' style={{ height: 500 }} />
+              <img src="\ImageBook.png" sizes='' style={{ height: 500 }} />
             </motion.div>
           </div>
         </div>
