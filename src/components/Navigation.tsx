@@ -58,8 +58,7 @@ export function Navigation() {
               onClick={() => {
                 const phoneNumber = "972595260216"; // بدون + و بدون -
                 const message = encodeURIComponent(
-                  "مرحبًا، أريد الحصول على كتاب إتقان تصميم المنتجات الرقمية."
-                );
+                  "مرحبًا، أود الحصول على كتاب *إتقان التسويق الرقمي*، وأرغب بمعرفة تفاصيل السعر وطريقة الشراء. شكرًا لكم.");
 
                 window.open(
                   `https://wa.me/${phoneNumber}?text=${message}`,
