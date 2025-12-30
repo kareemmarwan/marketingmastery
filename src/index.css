@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-display: 'Playfair Display', serif;
+
+  /* Elegant Palette: Deep Navy, Soft Gold/Sand, Crisp White */
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+
+  --primary: 222 47% 11%;
+  /* Deep Navy */
+  --primary-foreground: 45 29% 97%;
+
+  --secondary: 45 29% 97%;
+  /* Soft Sand/Cream */
+  --secondary-foreground: 222 47% 11%;
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  --accent: 35 92% 55%;
+  /* Gold Accent */
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 222 47% 11%;
+
+  --radius: 0.75rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-accent/20 selection:text-primary;
+    font-family: var(--font-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight font-medium;
+  }
+}
+
+/* Custom Utilities for 3D Book Effect */
+.book-container {
+  perspective: 1000px;
+}
+
+.book {
+  transform-style: preserve-3d;
+  position: relative;
+  width: 300px;
+  height: 450px;
+  transition: transform 0.5s ease;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.book:hover {
+  transform: rotateY(-10deg) rotateX(5deg) scale(1.02);
+  box-shadow: 30px 30px 70px rgba(0, 0, 0, 0.25);
+}
+
+/* Subtle texture overlay */
+.bg-texture {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
