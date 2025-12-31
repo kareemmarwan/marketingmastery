@@ -17,7 +17,8 @@ export function WhatsAppButton({ location, className = "", variant = 'primary' }
     });
 
     const phoneNumber = "972595260216";
-    const message = encodeURIComponent("مرحبًا، أود الحصول على كتاب *إتقان التسويق الرقمي*، وأرغب بمعرفة تفاصيل السعر وطريقة الشراء. شكرًا لكم.");
+    const message = encodeURIComponent('مرحبًا، أود شراء كتاب "مشاريع صغيرة برأس مال قليل". ممكن تزويدي بتفاصيل السعر وطريقة الشراء؟ شكرًا!');
+
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
