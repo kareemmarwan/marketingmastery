@@ -51,7 +51,7 @@ export function Footer() {
 
         {/* تذييل أسفل الصفحة */}
         <div className="border-t border-primary/10 pt-8 flex flex-col flex justify-between items-center text-sm text-muted-foreground text-right">
-          <p>© 2026 كتاب التسويق الرقمي. جميع الحقوق محفوظة.</p>
+          <p>© 2026 مشاريع صغيرة برأس مال قليل. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>

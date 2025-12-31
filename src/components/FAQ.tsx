@@ -69,8 +69,7 @@ export function FAQ() {
     >
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-display font-bold text-center mb-12">
-          الأسئلة الشائعة
-        </h2>
+          لماذا هذا الكتاب مختلف؟      </h2>
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (

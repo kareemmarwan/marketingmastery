@@ -41,11 +41,9 @@ export function Testimonials() {
         {/* العنوان */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 font-sans" style={{ fontFamily: 'Cairo, sans-serif' }}>
-            آراء خبراء التسويق
-          </h2>
+            قصص نجاح المشاريع الصغيرة          </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            اكتشف كيف ساعد هذا الدليل آلاف المسوقين على تحسين استراتيجياتهم وتحقيق نتائج أفضل.
-          </p>
+            اكتشف كيف ساعد هذا الكتاب آلاف الشباب وأصحاب الدخل المحدود على بدء مشاريعهم          </p>
         </div>
 
         {/* البطاقات */}

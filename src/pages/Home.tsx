@@ -39,14 +39,35 @@ export default function Home() {
               </div>
 
               {/* العنوان الرئيسي */}
-              <h1 className="text-5xl md:text-6xl lg:text-6xl font-display font-bold text-primary leading-[1.1] mb-6">
+              {/* <h1 className="text-5xl md:text-6xl lg:text-6xl font-display font-bold text-primary leading-[1.1] mb-6">
 
                 <span className="text-transparent bg-clip-text bg-gradient-to-l from-primary to-primary/60">
-                  مشاريع صغيرة برأس مال
+                  مشاريع صغيرة برأس مال قليل
                 </span>
                 <br />
                 <span className="italic font-serif text-accent relative">
-                  قليل
+                  بسعر إطلاق خاص 7.99$ بدلًا من 15$ لفترة محدودة
+                  <svg
+                    className="absolute w-full h-3 -bottom-1 left-0 text-accent/20 -z-10"
+                    viewBox="0 0 100 10"
+                    preserveAspectRatio="none"
+                  >
+                    <path
+                      d="M0 5 Q 50 10 100 5"
+                      stroke="currentColor"
+                      strokeWidth="8"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </h1> */}
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-display font-bold text-primary leading-tight mb-6">
+                <span className="text-transparent bg-clip-text bg-gradient-to-l from-primary to-primary/60">
+                  مشاريع صغيرة برأس مال قليل
+                </span>
+                <br />
+                <span className="italic font-serif text-accent relative text-lg sm:text-xl md:text-2xl">
+                  بسعر إطلاق خاص 7.99$ بدلًا من 15$ لفترة محدودة
                   <svg
                     className="absolute w-full h-3 -bottom-1 left-0 text-accent/20 -z-10"
                     viewBox="0 0 100 10"
@@ -62,10 +83,10 @@ export default function Home() {
                 </span>
               </h1>
 
+
               {/* وصف مختصر */}
               <p className="text-xl text-muted-foreground mb-10 max-w-lg leading-relaxed">
-                دليلك العملي للربح برأس مال من 100 إلى 500 دولار خلال 30 يومًا
-              </p>
+                دليلك العملي للربح برأس مال من 100 إلى 500 دولار خلال 30 يومًا </p>
 
               {/* أزرار الدعوة للعمل */}
               <div className="flex flex-col sm:flex-row gap-4 mb-10">
