@@ -42,11 +42,11 @@ export default function Home() {
               <h1 className="text-5xl md:text-6xl lg:text-6xl font-display font-bold text-primary leading-[1.1] mb-6">
 
                 <span className="text-transparent bg-clip-text bg-gradient-to-l from-primary to-primary/60">
-                  إتقان استراتيجيات التسويق الرقمي
+                  مشاريع صغيرة برأس مال
                 </span>
                 <br />
                 <span className="italic font-serif text-accent relative">
-                  باحتراف
+                  قليل
                   <svg
                     className="absolute w-full h-3 -bottom-1 left-0 text-accent/20 -z-10"
                     viewBox="0 0 100 10"
@@ -64,8 +64,7 @@ export default function Home() {
 
               {/* وصف مختصر */}
               <p className="text-xl text-muted-foreground mb-10 max-w-lg leading-relaxed">
-                الدليل الشامل لبناء حملات تسويقية رقمية ناجحة، وتحسين استراتيجيات الإعلان،
-                وزيادة التفاعل والمبيعات بشكل واضح وفعال.
+                دليلك العملي للربح برأس مال من 100 إلى 500 دولار خلال 30 يومًا
               </p>
 
               {/* أزرار الدعوة للعمل */}

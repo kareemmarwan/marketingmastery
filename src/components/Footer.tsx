@@ -10,12 +10,10 @@ export function Footer() {
           {/* شعار ومقدمة */}
           <div className="col-span-1 lg:col-span-2 text-right">
             <h3 className="font-display text-2xl font-bold text-primary mb-6">
-              التسويق <span className="text-accent">احترافي</span>
+              مشاريع صغيرة <span className="text-accent"> برأس مال قليل</span>
             </h3>
             <p className="text-muted-foreground mb-8 max-w-md leading-relaxed">
-              تمكين الجيل القادم من المسوقين الرقميين من خلال استراتيجيات عملية وقابلة للتطبيق. انضم لمجتمعنا وابدأ في تحسين حملاتك التسويقية وتحقيق نتائج ملموسة.
-
-            </p>
+              تمكين الشباب وأصحاب الدخل المحدود من بدء مشاريع واقعية وقابلة للتنفيذ برأس مال من 100 إلى 500 دولار، من خلال خطوات عملية وخطة واضحة تساعدك على تحقيق أول دخل خلال 30 يومًا.            </p>
             <div className="flex flex-row gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
                 <Twitter className="w-5 h-5" />
@@ -46,7 +44,7 @@ export function Footer() {
           {/* احصل على الكتاب */}
           <div className="text-right">
             <h4 className="font-bold text-primary mb-6" style={{ fontFamily: 'Cairo, sans-serif' }}>احصل على الكتاب</h4>
-            <p className="text-sm text-muted-foreground mb-4">ابدأ رحلتك في إتقان التصميم الآن.</p>
+            <p className="text-sm text-muted-foreground mb-4">ابدأ رحلتك نحو مشروعك الأول الآن</p>
             <WhatsAppButton location="footer" variant="outline" className="w-full" />
           </div>
         </div>

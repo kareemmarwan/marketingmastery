@@ -27,7 +27,7 @@ export function Navigation() {
               href="/"
               className="font-display text-2xl font-bold text-primary tracking-tight"
             >
-              Marketing<span className="text-accent">Mastery</span>
+              First<span className="text-accent">Income</span>
             </Link>
           </div>
 
