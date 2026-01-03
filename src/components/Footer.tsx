@@ -1,5 +1,6 @@
 import { WhatsAppButton } from "./WhatsAppButton";
-import { Twitter, Instagram, Linkedin, Mail } from "lucide-react";
+// import { Twitter, Instagram, Linkedin, Mail } from "lucide-react";
+import { Twitter, Instagram, Linkedin, Mail, Facebook } from "lucide-react";
 
 export function Footer() {
   return (
@@ -14,20 +15,40 @@ export function Footer() {
             </h3>
             <p className="text-muted-foreground mb-8 max-w-md leading-relaxed">
               تمكين الشباب وأصحاب الدخل المحدود من بدء مشاريع واقعية وقابلة للتنفيذ برأس مال من 100 إلى 500 دولار، من خلال خطوات عملية وخطة واضحة تساعدك على تحقيق أول دخل خلال 30 يومًا.            </p>
-            <div className="flex flex-row gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
-                <Mail className="w-5 h-5" />
-              </a>
-            </div>
+           <div className="flex flex-row gap-4">
+  {/* <a
+    href="#"
+    className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+  >
+    <Twitter className="w-5 h-5" />
+  </a>
+  <a
+    href="#"
+    className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+  >
+    <Instagram className="w-5 h-5" />
+  </a>
+  <a
+    href="#"
+    className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+  >
+    <Linkedin className="w-5 h-5" />
+  </a>
+  <a
+    href="#"
+    className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+  >
+    <Mail className="w-5 h-5" />
+  </a> */}
+  {/* أيقونة فيسبوك */}
+  <a
+    href="https://www.facebook.com/ecidec?mibextid=wwXIfr&rdid=PFfcCFbxT2C8gQYq"
+    className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+  >
+    <Facebook className="w-5 h-5" />
+  </a>
+</div>
+
           </div>
 
           {/* روابط سريعة */}
